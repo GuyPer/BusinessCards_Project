@@ -57,6 +57,8 @@ The project follows a well-organized architecture for better maintainability:
 
 Navigation within the application is intuitive, with the Navbar adapting based on the user's status. The Navbar includes a search bar for searching within the current page. Additionally, on mobile devices, there is a toggle button for accessing the navigation menu.
 
+The location for business users to create new cards is in the "Create New Card" button in the navbar.
+
 ## Forms
 
 The project includes forms for creating new users (with options for business or non-business users) and creating new business cards. These forms adhere to email, Israeli phone number, website address, and image URL validation standards. Users are provided with real-time feedback on the validity of their input through regex validation.
@@ -72,6 +74,11 @@ Admin users have special privileges to edit and delete all business cards. They 
 
 The application provides full theme support, allowing users to switch between light and dark themes according to their preference.
 
-## Conclusion
+## Installation
 
-This README provides an overview of the project structure, functionality, and features implemented. The organized folder structure and clear documentation aim to facilitate collaboration and further development of the project.
+You can install all the dependencies by running:
+
+```bash
+npm install
+or
+yarn install
