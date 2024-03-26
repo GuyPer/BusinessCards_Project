@@ -1,0 +1,6 @@
+.LightMode {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+    @media (min-width:768px) {}
+}
